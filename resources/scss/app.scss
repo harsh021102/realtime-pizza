@@ -36,3 +36,21 @@ section.hero{
 
     }
 }
+.btn-primary{
+    background: $primary;
+    transition: $smooth;
+    &:hover{
+        background: $primary-hover;
+    }
+}
+
+section.cart{
+    background: $secondry;
+    .amount{
+        color: $primary;
+    }
+}
+.login{
+    background: $secondry;
+    min-height: 100vh;
+}
